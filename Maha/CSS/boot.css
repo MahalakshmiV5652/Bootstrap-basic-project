@@ -1,0 +1,67 @@
+.hero-section {
+  background: url('./../IMAGES/image.jpg') no-repeat center center/cover;
+  height: 80vh;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.carousel-inner img {
+  height: 500px;
+  object-fit: cover;
+  border-radius: 1px;
+}
+
+.oval-frame {
+  width: 280px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: white;
+  padding: 8px;
+  box-shadow: 0 4px 15px rgba(102, 6, 6, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto 15px auto;
+}
+
+.features-img {  
+  width: 100%;
+  height: 180%;
+  max-width: 100%;
+  max-height: auto;
+  border-radius: 50% / 40%;
+  object-fit: cover;
+  display: block;
+}
+
+
+.contact-footer .footer-bg {
+  /* The image used */
+  background-image: url("./../IMAGES/image8.png");
+  min-height: 100px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-size: cover;
+  border-radius: 1px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  color: white;
+  height: 90vh;
+ 
+}
+
+.contact-footer form {
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.carousel-caption {
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  padding: 1rem;
+}
